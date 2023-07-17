@@ -26,6 +26,13 @@ h2 {
   margin-top: 0.25rem;
   font-weight: 400;
 }
+footer  {
+  margin-top: 1rem;
+  background-color: #0091b4;
+  color: #f5faff;
+  text-align: center;
+  padding: 0.75rem;
+}
 
 .textbox {
   padding: 0.75rem;
