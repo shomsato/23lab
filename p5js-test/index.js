@@ -1,8 +1,6 @@
-var w = 400;
-var h = 400;
-
 function setup(){
-    createCanvas(800, 500);
+    let canvas = createCanvas(800, 500);
+    canvas.parent("canvas");
 }
 
 function draw(){
@@ -15,4 +13,9 @@ function draw(){
     fill(60, 80, 120);
     stroke(255);
     text("FPS: " + fps.toFixed(2), 10, height - 10);
+    circle(windowWidth / 4, height / 2, 200);
+}
+
+function flask() {
+
 }
